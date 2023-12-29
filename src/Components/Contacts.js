@@ -45,14 +45,14 @@ const Contacts = () => {
                             <label style={{ padding: "0 0 8px 0" }}>
                                 Your Name
                             </label>
-                            <input style={{ padding: "8px", }}
+                            <input style={{ padding: "8px", }} required
                                 type="text" placeholder="john" name="user_name" />
                         </div>
                         <div style={{ display: "flex", flexDirection: "column" }} >
                             <label style={{ padding: "0 0 8px 0" }}>
                                 Your Email
                             </label>
-                            <input style={{ padding: "8px" }}
+                            <input style={{ padding: "8px" }} required
                                 type="email" placeholder="john@gmail.com" name="user_email" />
                         </div>
                     </div>
@@ -60,7 +60,7 @@ const Contacts = () => {
                         <label style={{ padding: "0 0 8px 0" }}>
                             Message
                         </label>
-                        <textarea style={{ padding: "8px" }} name="message" rows="8" cols="50" placeholder="Your Message ..." />
+                        <textarea style={{ padding: "8px" }} name="message" rows="8" cols="50" required placeholder="Your Message ..." />
                         <input style={{
                             margin: "1rem 0", padding: "12px", backgroundColor: "gray", border: "none", borderRadius: "10px",
                             width: "20%", color: "white", cursor: "pointer"
