@@ -3,11 +3,17 @@ import photo1 from '../assets/eatandbite.png';
 import photo2 from '../assets/netflix.png';
 
 const Projects = () => {
-    const liveDemo = () => {
+    const liveDemoEatandBite = () => {
         window.location.href = "https://eatandbite.netlify.app/";
     }
-    const github = () => {
+    const githubEatandBite = () => {
         window.location.href = "https://github.com/akhileshydv7/EatandBite";
+    }
+    const liveDemoNetflixGPT = () => {
+        window.location.href = "https://netfliixx-gpt.netlify.app/";
+    }
+    const githubNetflixGPT = () => {
+        window.location.href = "https://github.com/akhileshydv7/netflix-gpt";
     }
     return (
         <div id="projects" style={{ minHeight: "100vh", }}>
@@ -31,13 +37,13 @@ const Projects = () => {
                         <button
                             style={{ padding: "12px 32px" }}
                             className='live-button'
-                            onClick={github}>
+                            onClick={githubEatandBite}>
                             Github
                         </button>
                         <button
                             style={{ padding: "12px 20px" }}
                             className='live-button'
-                            onClick={liveDemo}>
+                            onClick={liveDemoEatandBite}>
                             Live Demo
                         </button>
                     </div>
@@ -51,13 +57,13 @@ const Projects = () => {
                         <button
                             style={{ padding: "12px 32px" }}
                             className='live-button'
-                            onClick={github}>
+                            onClick={githubNetflixGPT}>
                             Github
                         </button>
                         <button
                             style={{ padding: "12px 20px" }}
                             className='live-button'
-                            onClick={liveDemo}>
+                            onClick={liveDemoNetflixGPT}>
                             Live Demo
                         </button>
                     </div>
