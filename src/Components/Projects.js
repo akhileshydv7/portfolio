@@ -1,5 +1,6 @@
 import React from 'react';
-import photo1 from '../assets/project-1.png';
+import photo1 from '../assets/eatandbite.png';
+import photo2 from '../assets/netflix.png';
 
 const Projects = () => {
     const liveDemo = () => {
@@ -16,11 +17,14 @@ const Projects = () => {
             </div>
             <div style={{
                 margin: "auto", display: "flex", justifyContent: "center",
-                alignItems: "center", gap: "4%",
+                alignItems: "center", gap: "4%", paddingTop: "40px"
             }}>
                 <div style={{ border: "1.5px solid gray", width: "35%", textAlign: "center", borderRadius: "10%", paddingBottom: "12px" }}>
-                    <img src={photo1} alt='oops'
+                    {/* <img src={photo1} alt='oops'
                         style={{ width: "80%", borderRadius: "10%", marginTop: "32px" }}
+                    /> */}
+                    <img src={photo1} alt='oops'
+                        style={{ maxWidth: "80%", borderRadius: "2rem", marginTop: "32px", height: "auto" }}
                     />
                     <h1>Eat&Bite</h1>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "4%", margin: "8px 0", }}>
@@ -39,10 +43,10 @@ const Projects = () => {
                     </div>
                 </div>
                 <div style={{ border: "1.5px solid gray", width: "35%", textAlign: "center", borderRadius: "10%", paddingBottom: "12px" }}>
-                    <img src={photo1} alt='oops'
-                        style={{ width: "80%", borderRadius: "10%", marginTop: "32px" }}
+                    <img src={photo2} alt='oops'
+                        style={{ maxWidth: "80%", borderRadius: "2rem", marginTop: "32px", height: "auto" }}
                     />
-                    <h1>Eat&Bite</h1>
+                    <h1>Netflix-gpt</h1>
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "4%", margin: "8px 0", }}>
                         <button
                             style={{ padding: "12px 32px" }}
